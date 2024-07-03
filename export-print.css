@@ -1,0 +1,12 @@
+@media print {
+	img {
+		height: auto;
+        width: auto;
+        object-fit: contain;
+    }
+}
+img {
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}

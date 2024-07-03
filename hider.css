@@ -1,0 +1,51 @@
+/* 文件按钮隐藏 */
+body {
+  --link-decoration: none;
+  --checklist-done-decoration: none;
+}
+
+.cm-formatting.cm-formatting-link-string.cm-string.cm-url.external-link {
+  display: none;
+}
+
+.workspace-leaf-content[data-type="file-explorer"] > .nav-header {
+  display: none;
+}
+
+
+/* 按钮隐藏 */
+.clickable-icon:hover {
+	opacity: 1 !important;
+}
+.view-header:hover {
+	opacity: 1 !important;
+}
+.workspace-tabs.mod-stacked.mod-top .workspace-tab-header-container:hover {
+	opacity: 1 !important;
+}
+.sidebar-toggle-button:hover {
+	opacity: 1 !important;
+}
+
+@media screen and (max-width: 600px) {
+	.view-header {
+		opacity: 1 !important;
+	}
+	.workspace-tabs.mod-stacked.mod-top .workspace-tab-header-container {
+		opacity: 1 !important;
+	}
+	.sidebar-toggle-button {
+		opacity: 1 !important;
+	}
+}
+@media screen and (min-width: 601px) {
+	.view-header {
+		opacity: 0.3 !important;
+	}
+	.workspace-tabs.mod-stacked.mod-top .workspace-tab-header-container {
+		opacity: 0 !important;
+	}
+	.sidebar-toggle-button {
+		opacity: 0 !important;
+	}
+}

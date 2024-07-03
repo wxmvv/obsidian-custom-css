@@ -1,0 +1,58 @@
+/* theme-dark & theme-light */
+.theme-dark,
+.theme-light {
+	--my-primary-color: #00bbff;
+}
+/* theme-dark */
+.theme-dark {
+	--my-link-color: #7b7a79;
+	--my-active-link-color: #00bbff;
+}
+/* theme-light */
+.theme-light {
+	--my-link-color: #b5b3b0;
+	--my-active-link-color: #00bbff;
+}
+
+/* 光标颜色 */
+.markdown-source-view.mod-cm6 .cm-content {
+	caret-color: var(--my-primary-color);
+}
+
+
+/* 标签页标题 */
+.workspace-tab-header-inner-title {
+	font-weight: 600;
+}
+
+/* 标签页标题颜色 */
+/* .workspace-tab-header.mod-active.is-active .workspace-tab-header-inner-title,
+.workspace-tab-header.mod-active.is-active .workspace-tab-header-inner-icon {
+	color: var(--my-primary-color) !important;
+} */
+
+/* 标签页阴影 */
+/* .workspace-tab-container .workspace-tab-header {
+	box-shadow: -1px 0 0 0 var(--my-link-color), var(--tab-stacked-shadow) !important;
+}
+.workspace-tab-container .workspace-tab-header.mod-active.is-active {
+	box-shadow: -1px 0 0 0 var(--my-primary-color), var(--tab-stacked-shadow) !important;
+} */
+
+
+/* 外部链接url和括号颜色 */
+.cm-string.cm-url,
+.cm-formatting.cm-formatting-link.cm-link,
+.cm-active > .cm-formatting.cm-formatting-link-string.cm-string.cm-url {
+	color: var(--my-link-color) !important;
+}
+
+/* 内部链接括号颜色 */
+.cm-formatting-link.cm-formatting-link-end,
+.cm-formatting-link.cm-formatting-link-start {
+	color: var(--my-link-color) !important;
+}
+/* 选中后的外部链接url和括号颜色 */
+.cm-active > .cm-string.cm-url {
+	color: var(--my-active-link-color) !important;
+}

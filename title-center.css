@@ -1,0 +1,14 @@
+h1,h2,h3 {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/*.编辑模式*/
+/* HyperMD-header-1,.HyperMD-header-2{
+right:3rem;
+  text-align: center;
+  }*/
